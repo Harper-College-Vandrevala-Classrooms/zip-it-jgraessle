@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.csc.ZipperTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-10-13T23:40:33" hostname="JEROMESLAPTOP" time="0.045">
+  <properties/>
+  <testcase name="ZipforStrings()" classname="com.csc.ZipperTest" time="0.031"/>
+  <testcase name="ZipForDoubles()" classname="com.csc.ZipperTest" time="0.004"/>
+  <testcase name="ZipForIntegers()" classname="com.csc.ZipperTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
