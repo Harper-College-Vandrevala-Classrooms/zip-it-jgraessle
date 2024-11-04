@@ -6,9 +6,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class ZipperTest {
-  Zipper<String> zipString = new Zipper();
-  Zipper<Integer> zipInteger = new Zipper();
-  Zipper<Double> zipDouble = new Zipper();
+  // initializing Zipper objects
+  Zipper<String, String> zipString = new Zipper<>();
+  Zipper<Integer, Integer> zipInteger = new Zipper<>();
+  Zipper<Double, Double> zipDouble = new Zipper<>();
+
+  //defining specific lists used in tests
   List<String> stringList = List.of("one", "two", "three");
   List<String> stringList2 = List.of("four", "five", "six", "seven");
   List<String> stringListTest = List.of("one", "four", "two", "five", "three", "six", "seven");
@@ -18,6 +21,7 @@ public class ZipperTest {
   List<Double> doubleList = List.of(1.0, 2.0, 3.0);
   List<Double> doubleList2 = List.of(4.0, 5.0, 6.0, 7.0);
   List<Double> doubleListTest =  List.of(1.0, 4.0, 2.0, 5.0, 3.0, 6.0, 7.0);
+  
   @BeforeEach
   void setUp() {
   }
